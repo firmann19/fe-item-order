@@ -1,0 +1,113 @@
+.Event {
+    background-color: #D9D9D9;
+    padding: 2rem;
+}
+
+.title {
+    font-family: 'Pacifico', cursive;
+    color: #212529;
+    font-size: 2rem;
+}
+
+.form-create-event {
+    min-width: 20rem;
+    padding: 0 1rem;
+    
+    .label {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 1rem;
+        position: relative;
+        left: 0;
+        color: #212529;
+    }
+    
+    .form-control {
+        background-color: #f2f6f8;
+        border-radius: 0.5rem;
+        border: none;
+        
+        &.thick {
+            height: 3rem;
+            padding: .5rem 3rem;
+        }
+        
+        &:focus {
+            background-color: #f2f6f8;
+            border: none;
+        }
+    }
+    
+    ::placeholder {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 1rem;
+        color: #838788;
+        position: relative;
+        left: 0;
+    }
+    
+    input,
+    textarea {
+        font-family: 'Quicksand', sans-serif;
+        color: #212529;
+        font-size: 1rem;
+    }
+}
+
+.Event .btn-createEvent {
+    font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    padding: 0 3rem;
+    border: 0;
+    border-radius: 3rem;
+    background-image:#4D17E2;
+    background-size: 300% 100%;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-createEvent:hover:enabled {
+    box-shadow: 0 0.5em 0.5em -0.4em #4f74f9ba;
+    background-size: 100% 100%;
+    transform: translateY(-0.15em);
+  }
+  
+
+@media (max-width: 992px){
+    .form-create-event {
+        min-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .card-event {
+      width: 100%;
+      max-width: 50%;
+      margin: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .alert {
+      width: 100%;
+      max-width: 100%;
+      margin: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .selectBox {
+      width: 100%;
+      max-width: 48%;
+    }
+}
+
+@media (min-width: 768px) {
+    .btn-createEvent {
+      width: 100%;
+      max-width: 50%;
+      margin: auto;
+    }
+}

@@ -1,0 +1,6 @@
+export const START_FETCHING_ORDERS =
+  "redux/events/START_FETCHING_ORDERS";
+export const SUCCESS_FETCHING_ORDERS =
+  "redux/events/SUCCESS_FETCHING_ORDERS";
+export const ERROR_FETCHING_ORDERS =
+  "redux/events/ERROR_FETCHING_ORDERS";

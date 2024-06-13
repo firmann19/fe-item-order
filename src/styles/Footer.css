@@ -1,0 +1,13 @@
+.footer {
+    padding-top: 23px;
+    padding-bottom: 23px;
+    background-color: #F9FAFF;
+}
+
+.text-footer {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #0C145A;
+    text-align: center;
+}
